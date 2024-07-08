@@ -1,0 +1,103 @@
+body{
+  margin-top: 60px;
+  text-align:center;
+  background-image: linear-gradient(to bottom right,  rgb(228, 152, 238),rgb(154, 218, 248), rgb(228, 152, 238));
+}
+
+h1 {
+  padding-bottom: 0.5rem;
+  text-shadow: 2px 2px #fa70e8;
+}
+.container{
+  margin-top: 10rem;
+}
+.container-box{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 5rem;
+}
+
+input[type=number] {
+  cursor: pointer;
+}
+
+#input-celsius{
+  background-color: #52DDCF;
+  font-size: 1.5rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: none;
+  color: rgb(88, 17, 61);
+}
+#input-celsius::placeholder{
+  text-align: center;
+}
+#input-celsius:hover{
+  width: 11rem;
+  height: 11rem;
+}
+#input-fahrenheit{
+  background-color: #16BAC5;
+  font-size: 1.5rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  text-align: center;
+  border: none;
+  color: rgb(88, 17, 61);
+}
+#input-fahrenheit:hover{
+  width: 11rem;
+  height: 11rem;
+}
+#input-fahrenheit::placeholder{
+  text-align: center;
+}
+#input-kelvin{
+  background-color: #42a0d9;
+  font-size: 1.5rem;
+  width: 10rem;
+  height: 10rem;
+  border: none;
+  border-radius: 50%;
+  color: rgb(88, 17, 61);
+}
+#input-kelvin:hover{
+  width: 11rem;
+  height: 11rem;
+  
+}
+#input-kelvin::placeholder{
+  text-align: center;
+}
+.form-padding {
+  padding: 2rem 1rem;
+}
+
+::-webkit-input-placeholder {
+  color: #f51dc6 !important;
+}
+::-moz-placeholder {
+  color:  #f51dc6 !important;
+}
+:-ms-input-placeholder {
+  color:  #f51dc6!important;
+}
+:-moz-placeholder {
+  color: #f51dc6 !important;
+}
+
+footer{
+  margin-top: 5rem;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+  line-height: 0.2rem;
+  text-align:center;
+}
+
+.icons{
+  max-width: 25px;
+  height: auto;
+}
